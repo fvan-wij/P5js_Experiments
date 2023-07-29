@@ -1,0 +1,42 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  margin:0;
+  padding:0;
+}
+
+
+li{
+  display: flex;
+}
+
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(111, 121, 255);
+}
+
+li a{
+  color: aliceblue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(65, 46, 236);
+}
